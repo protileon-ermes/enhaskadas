@@ -1,0 +1,6 @@
+
+let add1 x = x * 2 in map add1[1,3,4]
+
+let take5s = filter (==5) in take5s[1,5,2,5,3,5]
+
+let (_,(a:_)) = (10,"abc") in a 
